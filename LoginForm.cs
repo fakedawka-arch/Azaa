@@ -11,8 +11,8 @@ namespace Tyrtyvshin
     public partial class LoginForm : Form
 
     {
-        string connStr = "server=localhost;port=3310;database=MOVIE;uid=root;password=Turuu76#;";
-        
+        string connStr = "server=localhost;port=3309;database=azaa.movie;uid=root;password=Azaa12#;";
+
         MySqlConnection GetConnection()
         {
             return new MySqlConnection(connStr);
